@@ -6,7 +6,9 @@ Codes for the paper **Structural Pre-training for Dialogue Comprehension**
 
 #### Dataset
 
-Since the datasets are quite large that exceed the Github file size limit, we only upload part of the data as examples. Do not forget to change to the data directory after you download the full data.
+Since the datasets are quite large that exceed the Github file size limit, we only upload part of the data as examples in the `data/ubuntu_data` directory. 
+
+Do not forget to change to the data directory after you download the full data.
 1. Datasets can be download from [Ubuntu dataset](https://www.dropbox.com/s/2fdn26rj6h9bpvl/ubuntu_data.zip?dl=0),  [Douban dataset](https://www.dropbox.com/s/90t0qtji9ow20ca/DoubanConversaionCorpus.zip?dl=0), and [ECD dataset](https://drive.google.com/file/d/154J-neBo20ABtSmJDvm7DK0eTuieAuvw/view?usp=sharing).
 2. Unzip the dataset and put data directory into `data/`.
 

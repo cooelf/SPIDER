@@ -1,0 +1,9 @@
+from .modeling_svo import ElectraForMultipleChoicePlus as electra_svo
+from .modeling_svo import BertForMultipleChoicePlus as bert_svo
+from .modeling_svo import RobertaForMultipleChoicePlus as roberta_svo
+from .modeling_uop import ElectraForMultipleChoicePlus as electra_uop
+from .modeling_uop import BertForMultipleChoicePlus as bert_uop
+from .modeling_uop import RobertaForMultipleChoicePlus as roberta_uop
+from .modeling_mtl import ElectraForMultipleChoicePlus as electra_mtl
+from .modeling_mtl import BertForMultipleChoicePlus as bert_mtl
+from .modeling_mtl import RobertaForMultipleChoicePlus as roberta_mtl
