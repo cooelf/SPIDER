@@ -10,6 +10,12 @@ Since the datasets are quite large that exceed the Github file size limit, we on
 1. Datasets can be download from [Ubuntu dataset](https://www.dropbox.com/s/2fdn26rj6h9bpvl/ubuntu_data.zip?dl=0),  [Douban dataset](https://www.dropbox.com/s/90t0qtji9ow20ca/DoubanConversaionCorpus.zip?dl=0), and [ECD dataset](https://drive.google.com/file/d/154J-neBo20ABtSmJDvm7DK0eTuieAuvw/view?usp=sharing).
 2. Unzip the dataset and put data directory into `data/`.
 
+#### SVO pre-annotation
+
+Use the scripts `svo_annotate.py` and `svo_combine.py` to generate the pre-annotated SVO files for quick access in model training.
+
+*Note: To avoid being killed due to large memory use, we separete the annotation with <u>start_id</u> and <u>end_id</u> in `svo_annotate.py`, and combine those annotated files with  `svo_combine.py`. 
+
 #### NUP pre-training 
 
 The steps to further pre-training BERT with NUP strategy is introduced as follows. We also provide the language model trained on Ubuntu training set. Our trained nup language model on Ubuntu training set can be accessed here. 
